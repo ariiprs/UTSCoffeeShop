@@ -97,9 +97,11 @@ section {
   min-height: 100vh;
   display: flex;
   flex-direction: row;
+  gap: 60px;
   align-items: center;
   background: var(--main-color);
   background-size: cover;
+  /* margin: ; */
 }
 
 .home .content {
@@ -115,16 +117,18 @@ section {
 }
 
 .home .content p {
+  margin-top: 0.7rem;
+  text-align: justify;
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: bold;
   line-height: 1.8;
   /* padding: 1rem 0; */
-  color: #fff;
+  color: #9c8e76;
 }
 
 .home .content h2 {
   margin-top: 10px;
-  color: #fff;
+  color: #c8ae7d;
 
   font-size: 1rem;
   font-weight: lighter;
@@ -138,9 +142,18 @@ section {
 
 .about .heading {
   text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.3rem;
   color: aliceblue;
   text-align: center;
   padding-bottom: 4rem;
+}
+
+.about hr {
+  margin: auto;
+  width: 100%;
+  height: 5px;
+  border-top: 5px dotted #fff;
 }
 
 .about .row {
@@ -153,8 +166,8 @@ section {
   margin-top: 4rem;
   width: 144px;
   height: 144px;
-  border-radius: 50%;
-  border-color: white;
+  /* border-radius: 50%; */
+  /* border-color: white; */
 }
 
 .about .row .column .text {
@@ -165,17 +178,14 @@ section {
   text-align: center;
 }
 .about .row .column p {
+  /* background-color:#FF00FF; */
+  width:150px;
+  overflow:hidden;
+  height:6rem;
   font-weight: lighter;
   margin-top: 10px;
-  text-align: center;
 }
 
-.about hr {
-  margin: auto;
-  width: 100%;
-  height: 5px;
-  border-top: 5px dotted #fff;
-}
 .parent-lorem {
   height: 300px;
   margin-top: 9rem;
@@ -205,6 +215,7 @@ section {
 
 .lorem h3 {
   font-family: "Freehand", sans-serif;
+  font-weight: lighter;
   color: white;
   font-size: 1.7rem;
   position: absolute;
@@ -216,7 +227,7 @@ section {
   background: var(--main-color);
   margin: auto;
   margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .last .lastFoot {
