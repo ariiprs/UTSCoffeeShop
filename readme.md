@@ -3,4 +3,4 @@ Purpose: Project for the mid-exam
 
 This is the link to the website:
 
-https://coffeeshop-nine-alpha.vercel.app/
+https://arieprasetyo-miniproject-coffeeshop.vercel.app/
