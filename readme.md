@@ -1,6 +1,6 @@
-created by : arie prasetyo
-purpose : project for mid exam
+Created by: Arie Prasetyo
+Purpose: Project for the mid-exam
 
-this the link of this website
+This is the link to the website:
 
 https://coffeeshop-nine-alpha.vercel.app/
